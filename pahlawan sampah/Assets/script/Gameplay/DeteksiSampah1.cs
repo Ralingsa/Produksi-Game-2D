@@ -26,7 +26,7 @@ public class DeteksiSampah1: MonoBehaviour {
 		{ 
 			Data.score += 2; 
 			textScore.text = Data.score.ToString(); 
-			DestroyObject  (collision.gameObject); 
+			DestroyObject(collision.gameObject); 
 			MediaPlayerBenar.Play(); 
 		} 
 		else 
