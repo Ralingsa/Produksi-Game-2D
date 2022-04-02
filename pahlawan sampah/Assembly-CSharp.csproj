@@ -57,7 +57,9 @@
      <Compile Include="Assets\script\Gameplay\gerakpindah.cs" />
      <Compile Include="Assets\script\Gameplay\geraksampah.cs" />
      <Compile Include="Assets\script\Gameplay\Mainmenu.cs" />
+     <Compile Include="Assets\script\Gameplay\Menumanager.cs" />
      <Compile Include="Assets\script\Gameplay\munculsampah.cs" />
+     <Compile Include="Assets\script\Gameplay\sampah.cs" />
      <Compile Include="Assets\script\script tutorial\batasakhir.cs" />
      <Compile Include="Assets\script\script tutorial\deteksisampah.cs" />
      <Compile Include="Assets\script\script tutorial\keluar.cs" />

@@ -17,12 +17,12 @@ public class deteksisampah : MonoBehaviour {
 
 
 	} 
-	void OnTriggerEnter(Collider collision) 
+	void OnTriggerEnter2D(Collider2D collision) 
 	{ 
 		if (collision.tag.Equals (nameTag)) { 
 			Data.score += 1; 
 			textScore.text = Data.score.ToString(); 
-			Destroy (collision.gameObject); 
+			DestroyObject(collision.gameObject); 
 			MediaPlayerBenar.Play (); 
 		}
 		}

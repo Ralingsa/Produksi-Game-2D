@@ -11,6 +11,9 @@ public class DeteksiSampah1: MonoBehaviour {
 	private AudioSource MediaPlayerBenar; 
 	private AudioSource MediaPlayerSalah; 
 	public Text textScore; 
+	public GameObject Panel; 
+	Text txpemenang;
+	public GameObject button;
 	// Use this for initialization 
 	void Start() 
 	{ 
@@ -19,6 +22,8 @@ public class DeteksiSampah1: MonoBehaviour {
 
 		MediaPlayerSalah = gameObject.AddComponent<AudioSource>();
 		MediaPlayerSalah.clip =audioSalah; 
+		Panel.SetActive (false);
+
 	} 
 	void OnTriggerEnter2D(Collider2D collision) 
 	{ 
@@ -36,5 +41,14 @@ public class DeteksiSampah1: MonoBehaviour {
 			Destroy(collision.gameObject); 
 			MediaPlayerSalah.Play(); 
 		}
+		if (Data.score >=15)
+		{
+			Panel.SetActive (true);
+			button.SetActive (false);
+			DestroyObject(gameObject);
+			txpemenang = GameObject .Find ("Panel").GetComponent <Text >();
+			return ;
 	}
+	}
+
 }
