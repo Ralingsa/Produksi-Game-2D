@@ -10,6 +10,7 @@ TagManager:
   - sampah
   - NonOraganik
   - Organik
+  - tanah
   layers:
   - Default
   - TransparentFX
