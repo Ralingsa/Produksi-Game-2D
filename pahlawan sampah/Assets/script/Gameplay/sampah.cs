@@ -5,6 +5,7 @@ using UnityEngine;
 public class sampah : MonoBehaviour {
 	float speed = 0f;
 	public Sprite[] sprites;
+	public bool bisaKlik = true;
 
 
 	// Use this for initialization
@@ -15,17 +16,20 @@ public class sampah : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		float move = (speed * Time.deltaTime * -1f) + transform.position.x;
-		transform.position = new Vector3 (move, transform.position.y);
+		//float move = (speed * Time.deltaTime * -1f) + transform.position.x;
+		//transform.position = new Vector3 (move, transform.position.y);
 	}
 	private Vector3 screenPoint; 
 	private Vector3 offset; 
 	private float firstY; 
 	void OnMouseDown() 
-	{ 
-		firstY = transform.position.y; 
-		screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position); 
-		offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint .z)); 
+	{
+		if (bisaKlik)
+		{
+			firstY = transform.position.y;
+			screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
+			offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
+		}
 	} 
 	void OnMouseDrag() 
 	{ 
@@ -35,6 +39,7 @@ public class sampah : MonoBehaviour {
 	} 
 	private void OnMouseUp() 
 	{ 
-		transform.position = new Vector3(transform.position.x,firstY, transform.position.z); 
+		transform.position = new Vector3(transform.position.x,firstY, transform.position.z);
+		bisaKlik = false;
 	}
 }

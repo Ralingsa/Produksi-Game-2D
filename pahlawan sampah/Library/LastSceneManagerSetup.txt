@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scene/mainmenu.unity
+- path: Assets/scene/cobaRangga.unity
   isLoaded: 1
   isActive: 1

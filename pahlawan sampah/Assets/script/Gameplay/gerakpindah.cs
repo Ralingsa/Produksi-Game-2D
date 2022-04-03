@@ -5,6 +5,7 @@ using UnityEngine;
 public class gerakpindah : MonoBehaviour {
 	float speed = 3f;
 	public Sprite[] sprites;
+	public bool daurUlang;
 
 
 	// Use this for initialization
@@ -16,8 +17,12 @@ public class gerakpindah : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		float move = (speed * Time.deltaTime * -1f) + transform.position.x;
-		transform.position = new Vector3 (move, transform.position.y);
+		if (!daurUlang)
+        {
+			float move = (speed * Time.deltaTime * -1f) + transform.position.x;
+			transform.position = new Vector3 (move, transform.position.y);
+        }
+		
 	}
 	private Vector3 screenPoint; 
 	private Vector3 offset; 
