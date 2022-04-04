@@ -79,8 +79,13 @@
     <Compile Include="Assets\script\Gameplay3\muncultanah.cs" />
     <Compile Include="Assets\script\Gameplay3\sampahorganik.cs" />
     <Compile Include="Assets\script\Gameplay3\tanah.cs" />
-    <Compile Include="Assets\script\new script\mouseClick.cs" />
+    <Compile Include="Assets\script\new script\control\anorganikCheck.cs" />
+    <Compile Include="Assets\script\new script\control\mouseClick.cs" />
+    <Compile Include="Assets\script\new script\control\organikCheck.cs" />
     <Compile Include="Assets\script\new script\munculBotol.cs" />
+    <Compile Include="Assets\script\new script\pungut\pungut1.cs" />
+    <Compile Include="Assets\script\new script\ui\modWinPanel.cs" />
+    <Compile Include="Assets\script\new script\ui\UIManager.cs" />
     <Compile Include="Assets\script\script tutorial\batasakhir.cs" />
     <Compile Include="Assets\script\script tutorial\deteksisampah.cs" />
     <Compile Include="Assets\script\script tutorial\keluar.cs" />

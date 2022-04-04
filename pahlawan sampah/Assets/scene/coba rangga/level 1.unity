@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 49358712}
   m_Layer: 0
   m_Name: tempat anorganik
-  m_TagString: Untagged
+  m_TagString: NonOraganik
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -208,6 +208,66 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 6.2, y: 11.99}
   m_Direction: 0
+--- !u!1 &81634639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 81634640}
+  m_Layer: 0
+  m_Name: b2
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &81634640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81634639}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8, y: -1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &829739941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 829739942}
+  m_Layer: 0
+  m_Name: b1
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &829739942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829739941}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8, y: -4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1356490812
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,7 +360,7 @@ GameObject:
   - component: {fileID: 1621069270}
   m_Layer: 0
   m_Name: Tempat sampah1
-  m_TagString: Untagged
+  m_TagString: Organik
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -394,6 +454,7 @@ GameObject:
   - component: {fileID: 1980671246}
   - component: {fileID: 1980671245}
   - component: {fileID: 1980671244}
+  - component: {fileID: 1980671247}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -465,3 +526,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1980671247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980671243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e70369721cce5bc4a8f7f24e98ef7370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  organik:
+  - {fileID: 1355173639623290342, guid: 6c3dccc02680b484ba9054b1b2226987, type: 3}
+  - {fileID: 1654445924896495288, guid: f9ea88aef940807489a03cd509d85a40, type: 3}
+  - {fileID: 7782507803446884980, guid: 29718b236de8db942b62409d572ca4ee, type: 3}
+  anorganik:
+  - {fileID: 2751746718253771721, guid: 3230655d43683e446af88e282a9acf36, type: 3}
+  - {fileID: 7234151258213545893, guid: cecfd3be9372dec4ab444a5d7dc69106, type: 3}
+  - {fileID: 8792549349075989479, guid: d0902ab714ffd5d4eac9172e77a4d7b2, type: 3}

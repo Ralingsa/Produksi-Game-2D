@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3066994233391248271}
   - component: {fileID: 4297196281142463117}
   - component: {fileID: 2114432371839996}
+  - component: {fileID: 8292395568111967605}
   m_Layer: 0
   m_Name: Botol pref
   m_TagString: Untagged
@@ -109,3 +110,15 @@ CapsuleCollider2D:
   m_Offset: {x: 0.12, y: 0.11}
   m_Size: {x: 5.05, y: 1.69}
   m_Direction: 1
+--- !u!114 &8292395568111967605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186734401006534322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36ad2c2beb32bb64fa646b49ccb8bffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

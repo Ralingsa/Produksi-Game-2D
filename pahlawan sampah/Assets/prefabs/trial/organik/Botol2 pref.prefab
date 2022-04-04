@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 698330081663624792}
   - component: {fileID: 7541881909438015500}
   - component: {fileID: 114485665314434310}
+  - component: {fileID: 3106859035682201653}
   m_Layer: 0
   m_Name: Botol2 pref
   m_TagString: Untagged
@@ -107,5 +108,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb28c55b43b929c42961ea66bcf48d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3106859035682201653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8792549349075989479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36ad2c2beb32bb64fa646b49ccb8bffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

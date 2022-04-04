@@ -18,10 +18,11 @@ public class mouseClick : MonoBehaviour
 
 	private Vector3 screenPoint;
 	private Vector3 offset;
-	private float firstY;
+	private float firstY, firstX;
 	void OnMouseDown()
 	{
 		firstY = transform.position.y;
+		firstX = transform.position.x;
 		screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
 		offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
 	}
@@ -33,6 +34,8 @@ public class mouseClick : MonoBehaviour
 	}
 	private void OnMouseUp()
 	{
-		transform.position = new Vector3(transform.position.x, firstY, transform.position.z);
+		//transform.position = new Vector3(transform.position.x, firstY, transform.position.z);
+		//transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+		transform.position = new Vector3(firstX, firstY, transform.position.z);
 	}
 }
