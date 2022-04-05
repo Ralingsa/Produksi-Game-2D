@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scene/coba rangga/level 1.unity
+- path: Assets/scene/coba rangga/menuBaru.unity
   isLoaded: 1
   isActive: 1

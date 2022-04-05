@@ -11,6 +11,8 @@ TagManager:
   - NonOraganik
   - Organik
   - tanah
+  - bawah
+  - atas
   layers:
   - Default
   - TransparentFX
