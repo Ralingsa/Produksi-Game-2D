@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1090443667301148635}
   - component: {fileID: 4381117183646867446}
   - component: {fileID: 6899581087104016061}
+  - component: {fileID: 114410259145173688}
   m_Layer: 0
   m_Name: kresek pref
   m_TagString: Untagged
@@ -119,3 +120,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.4, y: 5.05}
   m_EdgeRadius: 0
+--- !u!114 &114410259145173688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090443667301148634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36ad2c2beb32bb64fa646b49ccb8bffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: kresek

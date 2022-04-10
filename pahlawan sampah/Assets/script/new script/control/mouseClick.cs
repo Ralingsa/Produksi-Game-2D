@@ -16,9 +16,9 @@ public class mouseClick : MonoBehaviour
         
     }
 
-	private Vector3 screenPoint;
-	private Vector3 offset;
-	private float firstY, firstX;
+	Vector3 screenPoint;
+	Vector3 offset;
+	float firstY, firstX;
 	void OnMouseDown()
 	{
 		firstY = transform.position.y;

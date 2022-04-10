@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2751746718253771720}
   - component: {fileID: 2203650513953690105}
   - component: {fileID: 5878758158347421047}
+  - component: {fileID: 114060387220467202}
   m_Layer: 0
   m_Name: Kertas pref
   m_TagString: Untagged
@@ -119,3 +120,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.13, y: 7.27}
   m_EdgeRadius: 0
+--- !u!114 &114060387220467202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2751746718253771721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36ad2c2beb32bb64fa646b49ccb8bffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: kertas

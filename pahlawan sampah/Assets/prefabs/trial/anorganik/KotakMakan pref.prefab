@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7234151258213545892}
   - component: {fileID: 7578778151785878843}
   - component: {fileID: 2373695884496116112}
+  - component: {fileID: 114112309493638414}
   m_Layer: 0
   m_Name: KotakMakan pref
   m_TagString: Untagged
@@ -119,3 +120,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10.66, y: 7.25}
   m_EdgeRadius: 0
+--- !u!114 &114112309493638414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7234151258213545893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36ad2c2beb32bb64fa646b49ccb8bffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: kotak makan
