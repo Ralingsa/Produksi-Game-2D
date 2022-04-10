@@ -65,6 +65,9 @@
      <Compile Include="Assets\script\Gameplay3\muncultanah.cs" />
      <Compile Include="Assets\script\Gameplay3\sampahorganik.cs" />
      <Compile Include="Assets\script\Gameplay3\tanah.cs" />
+     <Compile Include="Assets\script\Gameplay4\bg.cs" />
+     <Compile Include="Assets\script\Gameplay4\gerakbarang.cs" />
+     <Compile Include="Assets\script\Gameplay4\panel.cs" />
      <Compile Include="Assets\script\script tutorial\batasakhir.cs" />
      <Compile Include="Assets\script\script tutorial\deteksisampah.cs" />
      <Compile Include="Assets\script\script tutorial\keluar.cs" />
