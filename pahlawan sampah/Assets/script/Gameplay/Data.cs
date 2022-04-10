@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Data
 {
+	public static bool pot = false; 
 	public static int score ;
+	public static bool hiasan = false; 
+	public static bool tisu = false; 
 
 	// Use this for initialization
 	void Start () {
@@ -15,4 +18,10 @@ public class Data
 	void Update () {
 
 	}
+	void reset ()
+	{
+		score = 0;
+	}
+		
 }
+
