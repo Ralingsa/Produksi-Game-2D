@@ -11,8 +11,13 @@ TagManager:
   - NonOraganik
   - Organik
   - tanah
+<<<<<<< HEAD
   - bawah
   - atas
+=======
+  - bg
+  - daurulang
+>>>>>>> irang
   layers:
   - Default
   - TransparentFX
@@ -49,4 +54,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: 1
+    uniqueID: 147621697
     locked: 0

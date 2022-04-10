@@ -79,6 +79,7 @@
     <Compile Include="Assets\script\Gameplay3\muncultanah.cs" />
     <Compile Include="Assets\script\Gameplay3\sampahorganik.cs" />
     <Compile Include="Assets\script\Gameplay3\tanah.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\script\new script\control\anorganikCheck.cs" />
     <Compile Include="Assets\script\new script\control\mouseClick.cs" />
     <Compile Include="Assets\script\new script\control\organikCheck.cs" />
@@ -109,6 +110,14 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+=======
+    <Compile Include="Assets\script\Gameplay4\bg.cs" />
+    <Compile Include="Assets\script\Gameplay4\gerakbarang.cs" />
+    <Compile Include="Assets\script\Gameplay4\panel.cs" />
+    <Compile Include="Assets\script\script tutorial\batasakhir.cs" />
+    <Compile Include="Assets\script\script tutorial\deteksisampah.cs" />
+    <Compile Include="Assets\script\script tutorial\keluar.cs" />
+>>>>>>> irang
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/training base/produksi game 2d/pahlawan sampah/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

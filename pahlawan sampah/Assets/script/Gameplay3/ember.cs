@@ -6,25 +6,27 @@ using UnityEngine.UI;
 public class ember: MonoBehaviour {
 
 	public string nameTag; 
-	public AudioClip audioBenar; 
-	public AudioClip audioSalah; 
+	public AudioClip audioBenar;  
 	private AudioSource MediaPlayerBenar; 
-	private AudioSource MediaPlayerSalah; 
 	public Text textScore; 
-	public GameObject Panel; 
-	Text txpemenang;
-	public GameObject button;
+	public GameObject ember1; 
+	public GameObject ember2;
+	public GameObject ember3;
+	public GameObject ember4;
+	public GameObject tutup;
+
 	// Use this for initialization 
 	void Start() 
 	{ 
 		MediaPlayerBenar = gameObject.AddComponent<AudioSource>();
 		MediaPlayerBenar.clip =audioBenar;  
-
-		MediaPlayerSalah = gameObject.AddComponent<AudioSource>();
-		MediaPlayerSalah.clip =audioSalah; 
-		Panel.SetActive (false);
-
-	} 
+		 
+		ember1.SetActive (true);
+		ember2.SetActive (false);
+		ember3.SetActive (false);
+		ember4.SetActive (false);
+		tutup.SetActive (false);
+	}
 	void OnTriggerEnter2D(Collider2D collision) 
 	{ 
 		if (collision.tag.Equals(nameTag)) 
@@ -33,21 +35,46 @@ public class ember: MonoBehaviour {
 			textScore.text = Data.score.ToString(); 
 			DestroyObject(collision.gameObject); 
 			MediaPlayerBenar.Play(); 
-		} 
-		else 
+		}
+		if (Data.score >=0)
 		{
-			Data.score -= 1; 
-			textScore.text = Data.score.ToString(); 
-			Destroy(collision.gameObject); 
-			MediaPlayerSalah.Play(); 
+			ember1.SetActive (true);
+			ember2.SetActive (false);
+			ember3.SetActive (false);
+			ember4.SetActive (false);
+			tutup.SetActive (false);
+		}
+		if (Data.score >=5)
+		{
+			ember1.SetActive (false);
+			ember2.SetActive (true);
+			ember3.SetActive (false);
+			ember4.SetActive (false);
+			tutup.SetActive (false);
+		}
+		if (Data.score >=9)
+		{
+			ember1.SetActive (false);
+			ember2.SetActive (false);
+			ember3.SetActive (true);
+			ember4.SetActive (false);
+			tutup.SetActive (false);
 		}
 		if (Data.score >=15)
 		{
-			Panel.SetActive (true);
-			button.SetActive (false);
-			DestroyObject(gameObject);
-			txpemenang = GameObject .Find ("Panel").GetComponent <Text >();
-			return ;
+			ember1.SetActive (false);
+			ember2.SetActive (false);
+			ember3.SetActive (false);
+			ember4.SetActive (true);
+			tutup.SetActive (false);
+		}
+		if (Data.score >=20)
+		{
+			ember1.SetActive (false);
+			ember2.SetActive (false);
+			ember3.SetActive (false);
+			ember4.SetActive (false);
+			tutup.SetActive (true);
 		}
 	}
 
