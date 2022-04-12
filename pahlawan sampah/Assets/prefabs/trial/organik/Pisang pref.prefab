@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 64393895198758391}
   - component: {fileID: 2768064730054766276}
   - component: {fileID: 8687175467788479801}
+  - component: {fileID: 50202989888476544}
+  - component: {fileID: 114346339723925564}
   m_Layer: 0
   m_Name: Pisang pref
-  m_TagString: Untagged
+  m_TagString: sm organik
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,7 +93,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.22, y: 0.06}
@@ -109,3 +111,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb28c55b43b929c42961ea66bcf48d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &50202989888476544
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6909235496340861744}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &114346339723925564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6909235496340861744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c7222bcd2ee47942bbcc5973445b660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: pisang
+  destroy: {fileID: 8300000, guid: 7967407ca3b4ca2479c838036f341ebd, type: 3}

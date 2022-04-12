@@ -29,4 +29,6 @@ public class modWinPanel : MonoBehaviour
     private Button _declineButton;
     [SerializeField]
     private Button _alternateButton;
+
+
 }

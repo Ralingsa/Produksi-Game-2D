@@ -4,20 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - mulai
-  - panduan
-  - keluar
-  - sampah
   - NonOraganik
   - Organik
+  - sampah
   - tanah
-<<<<<<< HEAD
-  - bawah
-  - atas
-=======
-  - bg
-  - daurulang
->>>>>>> irang
+  - sm organik
+  - sm anorganik
   layers:
   - Default
   - TransparentFX
@@ -54,7 +46,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: 1
-    uniqueID: 147621697
     locked: 0

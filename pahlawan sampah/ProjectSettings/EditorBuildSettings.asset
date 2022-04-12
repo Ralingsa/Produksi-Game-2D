@@ -6,14 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/scene/mainmenu.unity
-    guid: 89f160c2c18513648b4a0387b68bca97
+    path: Assets/scene/coba rangga/menuBaru.unity
+    guid: 16bf66dfce506b74bb67d55757daa4dc
   - enabled: 1
-    path: Assets/scene/tutorial.unity
-    guid: 1c9130495edfe7a4091c915ee3333be2
+    path: Assets/scene/coba rangga/level 1/pungut.unity
+    guid: dcbc70cf30e73cc42a6c0b57b7bb8d80
   - enabled: 1
-    path: Assets/scene/Gameplay.unity
-    guid: dcc9b8ee0e124a84bac92b05a86441b8
+    path: Assets/scene/coba rangga/level 1/pupuk.unity
+    guid: 095725b85cfdade4b91bb1cd31c137de
   - enabled: 1
-    path: Assets/scene/Gameplay2.unity
-    guid: f33e72359ef44d049865c01327d94d17
+    path: Assets/scene/coba rangga/level 1/anorganik.unity
+    guid: 96eeac625ce6e6249be4d50af4d35a45
+  - enabled: 1
+    path: Assets/scene/coba rangga/Shop.unity
+    guid: e99e337a5a873f74fbe0a3c03c79de82
+  m_configObjects: {}

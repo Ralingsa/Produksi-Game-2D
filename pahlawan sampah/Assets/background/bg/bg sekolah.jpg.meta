@@ -36,7 +36,7 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -60,7 +60,6 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-<<<<<<< HEAD:pahlawan sampah/Assets/background/bg sekolah.jpg.meta
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -105,8 +104,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: WebGL
-=======
->>>>>>> irang:pahlawan sampah/Assets/background/bg/bg sekolah.jpg.meta
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -122,11 +119,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-<<<<<<< HEAD:pahlawan sampah/Assets/background/bg sekolah.jpg.meta
-    spriteID: 8513eea14fdcf3e48ac413e0ccb9a6d8
-=======
-    spriteID: a687da6d304b1e745a21c76dc1af414b
->>>>>>> irang:pahlawan sampah/Assets/background/bg/bg sekolah.jpg.meta
+    spriteID: 9a1ad372e20948e4aa8bb66c1a0d6bdd
     vertices: []
     indices: 
     edges: []

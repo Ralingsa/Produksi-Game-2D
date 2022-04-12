@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/scene/coba rangga/level 1/pungut.unity
-=======
-- path: Assets/scene/Gameplay4.unity
->>>>>>> irang
+- path: Assets/scene/coba rangga/level 1/anorganik.unity
   isLoaded: 1
   isActive: 1

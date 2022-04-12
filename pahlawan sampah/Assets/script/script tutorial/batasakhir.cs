@@ -17,7 +17,7 @@ public class batasakhir : MonoBehaviour {
 	void OnTriggerEnter(Collider collision) 
 	{ 
 		Destroy(collision.gameObject); 
-		SceneManager.LoadScene("GameOver"); // Baris Ini akan digunakan pada submodul GameOver 
+		//SceneManager.LoadScene("GameOver"); // Baris Ini akan digunakan pada submodul GameOver 
 
 	}
 }

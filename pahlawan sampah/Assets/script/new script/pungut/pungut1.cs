@@ -11,16 +11,14 @@ public class pungut1 : MonoBehaviour
     int sampah;
     int spawn;
     public Text limitTxt;
+    public GameObject modFinish;
+    public GameObject home;
     
     // Start is called before the first frame update
     void Start()
     {
-        data.sampahIn = 0;
-        data.An_Bot2 = 0;
-        data.An_KotMak = 0;
-        //Debug.Log(data.sampahIn);
-        data.limit = limitSampah + 1;
-        //Debug.Log(data.limit);
+        setStart();
+        modFinish.SetActive(false);
     }
 
     // Update is called once per frame
@@ -33,6 +31,12 @@ public class pungut1 : MonoBehaviour
             spawnSampahAnorganik();
         }
         limitTxt.text = sampah.ToString() + "/" + data.limit.ToString();
+
+        if (sampah == data.limit)
+        {
+            modFinish.SetActive(true);
+            home.SetActive(false);
+        }
     }
 
     public void spawnSampahOrganik()
@@ -47,5 +51,22 @@ public class pungut1 : MonoBehaviour
         int index = Random.Range(0, anorganik.Length);
         Instantiate(anorganik[index], new Vector2(Random.Range(-8f, 8f), Random.Range(-1.5f, -5f)), transform.rotation);
         spawn++;
+    }
+
+    void setStart()
+    {
+        data.sampahIn = 0;
+        data.Or_count = 0;
+
+        data.An_Bot2 = 0;
+        data.An_KotMak = 0;
+        data.An_Kot = 0;
+        data.An_Ker = 0;
+
+        data.Or_Dau1 = 0;
+        data.Or_Dau2 = 0;
+        data.Or_Ran2 = 0;
+
+        data.limit = limitSampah + 1;
     }
 }
