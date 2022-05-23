@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scene/coba rangga/level 1/anorganik.unity
+- path: Assets/scene/shop test/shop test.unity
   isLoaded: 1
   isActive: 1

@@ -71,7 +71,7 @@ public class daurAnor_UI : MonoBehaviour
     public void closeModPot()
     {
         modPot.SetActive(false);
-        UnityEngine.SceneManagement.SceneManager.LoadScene(Application.loadedLevel);
+        //UnityEngine.SceneManagement.SceneManager.LoadScene(Application.loadedLevel);
     }
 
     public void openModProduk()

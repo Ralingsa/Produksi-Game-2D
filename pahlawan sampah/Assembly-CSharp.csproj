@@ -65,6 +65,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\scene\shop test\script\shopCtrl.cs" />
+    <Compile Include="Assets\scene\shop test\script\shopData.cs" />
     <Compile Include="Assets\script\Gameplay\batasakhirsampah.cs" />
     <Compile Include="Assets\script\Gameplay\Data.cs" />
     <Compile Include="Assets\script\Gameplay\DeteksiSampah1.cs" />
